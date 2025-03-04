@@ -39,13 +39,20 @@ atrybutyPostaci = {
 
 Dane Lokalizacji:
 Lokalizacja = {
-    „lokalizacja”: spawn/miasto/,
-    „lvlMobkow”: 10,
-    „cooldown”: 10,
-    „liczbaMobow”: 15,
-    “RodzajMobkow”: int,
-    „IdMoba”: int
+    "spawn": {
+        „lokalizacja": int,
+        "lvlRange": string,
+        "mobType": int,
+        "mobPopulation": int,
+        "mobId": int
+        },
+    "miasto": {
+        }
     }
+Notatki:
+- lokalizacja bedzie dodawana do slownika i bedzie dwfiniowac niezaca lokalizacje postaci
+
+
 
 Dane Dostepne Spawn:
 mobSpawn = {
