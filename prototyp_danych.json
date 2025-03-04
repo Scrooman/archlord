@@ -1,1 +1,61 @@
+StatusWalkiPostaci = false, True
 
+Dane Stanu Postaci:
+StanPostaci = {
+    "Status”: idle, dead, alive, travel,
+    „StatusAkcji”: battle, rest, respawn…
+    „CzasRozpoczecia”: date,
+    „CzasZakonczenia”: date
+    „Lokalizacja”: int
+    }
+    
+ 
+Dane Właściwości Postaci:
+WlasciwosciPostaci = {
+    "hp”: int,
+    „Mana”: int,
+    „Exp”: int,
+    }
+
+
+Dane Atrybutow postaci:
+atrybutyPostaci = { 
+    „1”: {
+        “Strength”: 1,
+        “Agility”: 10
+        “ZalozonyPancerz”: {
+            “Head”: Id,
+            “Chest”: Id
+            },
+        “zalozonaBron”: {
+            “weapon”: Id,
+            „MountWepon: Id
+            },
+         “Lokalizacja”: int,
+          “Ekwipunek”: []
+        }
+    }
+
+
+Dane Lokalizacji:
+Lokalizacja = {
+    „lokalizacja”: spawn/miasto/,
+    „lvlMobkow”: 10,
+    „cooldown”: 10,
+    „liczbaMobow”: 15,
+    “RodzajMobkow”: int,
+    „IdMoba”: int
+    }
+
+Dane Dostepne Spawn:
+mobSpawn = {
+    "1": {
+        "lokalizacja": int,
+        "lvlRange": string,
+        "mobType": int,
+        "mobPopulation": int,
+        "mobId": int,
+        }
+    }
+Notes: 
+- nalezy zapelnic slownik spawnow za pomoca funkcji
