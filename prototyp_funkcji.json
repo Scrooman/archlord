@@ -1,1 +1,45 @@
+wygenerujPostac():
+Utwórz słownik z danymi podstawowymi postaci
+Utwórz słownik z atrybutami postaci 
+Włącz zapisywanie danych do SQL
 
+dodajInstancjePrzedmiotu(item_id):
+Pobierz dane przedmiotu z bazy danych
+Nadaj id_inst przedmiotu
+Dodaj go do Moba
+
+1. losujMoba():
+2. While True:
+sprawdź stanPostaci, statusWalkiPostaci
+Sprawdź wybraną grupę mobów (rodzaj poziom)
+losuj id moba i przekaż do słownika z walką
+pobierz z bazy danych wymagane dane moba
+Dodaj dane do zmiennej Spawn
+
+aktywujStanWalki():
+Wylicz Hit Pointy bohatera
+Wylicz Hit Pointy moba
+
+
+Zmien statusWalkiWalki
+Rozpocznij losujMoba()
+Rozpocznij prowadzWalke()
+
+
+prowadzWalke():
+
+wylosujItemZMoba():
+
+zdobadzExpZMoba():
+
+
+
+Kroki działania aplikacji:
+
+1. Wygeneruj postać
+2. Wybierz cel: miasto (regeneracja), walka (wybierz Spawn)
+3. Wykonaj podróż do spawn
+4. Walcz z mobem
+5. Zbieraj przedmioty
+6. Podejmij decyzję: podróż do miasta lub walka
+7. Wykonaj podróż (do miasta lub innego spawn)
