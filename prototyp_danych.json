@@ -6,7 +6,8 @@ StanPostaci = {
     „StatusAkcji”: battle, rest, respawn…
     „CzasRozpoczecia”: date,
     „CzasZakonczenia”: date
-    „Lokalizacja”: int
+    „LokalizacjaSpawn”: int,
+    "lokalizacjaMiasto": int
     }
     
  
@@ -15,6 +16,7 @@ WlasciwosciPostaci = {
     "hp”: int,
     „Mana”: int,
     „Exp”: int,
+    "gold": int
     }
 
 
@@ -22,17 +24,24 @@ Dane Atrybutow postaci:
 atrybutyPostaci = { 
     „1”: {
         “Strength”: 1,
-        “Agility”: 10
+        “Agility”: 10,
+        .........
         “ZalozonyPancerz”: {
             “Head”: Id,
-            “Chest”: Id
+            “Chest”: Id,
+            ....
             },
         “zalozonaBron”: {
             “weapon”: Id,
-            „MountWepon: Id
+            „MountWepon: Id,
+            .....
             },
          “Lokalizacja”: int,
-          “Ekwipunek”: []
+         “Ekwipunek”: {
+            "materials": [],
+            "chantraBag": [],
+            ...pozostale itemType...
+            }
         }
     }
 
