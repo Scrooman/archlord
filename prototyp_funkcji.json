@@ -8,6 +8,13 @@ Pobierz dane przedmiotu z bazy danych
 Nadaj id_inst przedmiotu
 Dodaj go do Moba
 
+
+wybierzSpawn():
+aktualizacja slownika lokalizacji
+rozpoczecie wątku losowaniaMoba
+
+
+
 1. losujMoba():
 2. While True:
 sprawdź stanPostaci, statusWalkiPostaci
