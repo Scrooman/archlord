@@ -1,3 +1,34 @@
+kolejnosc prc:
+1. ekran Login:
+    a. pole z haslem i loginem i przyciskiwm Login
+    b. przy pustych polach wybranie przycisku Login wykonuje:
+        b1. wygenerowanie postaci zgodnie z:
+            b1.1.
+        b2. otwarcie strony index.html:
+        b2.1. uzupelnienie pol w ekranie Character
+        b2.2. wyswietlenie walki (spawn lub podroz lub cooldown itd)
+        
+
+slownik character:
+character = {
+    "id": int,
+    "name": string,
+    "race": int,
+    "class": int,
+    "characteristics": {},
+    "atributes": {},
+    "inventory": {
+            "equipedInventory": {
+                "armor": [],
+                "weapon": [],
+                "mount": int,
+                "mountWeapon": int,
+                "potions": int
+                }
+            },
+    "stanPostaci": {},
+    
+
 StatusWalkiPostaci = false, True
 
 Dane Stanu Postaci:
