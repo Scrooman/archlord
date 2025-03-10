@@ -2,11 +2,13 @@ kolejnosc prc:
 1. ekran Login:
     a. pole z haslem i loginem i przyciskiwm Login
     b. przy pustych polach wybranie przycisku Login wykonuje:
-        b1. wygenerowanie postaci zgodnie z:
-            b1.1.
+        b1. inicjalizacja zgodnie z:
+            b1.1. wygenerowanie slownika postaci
+            b1.2. wygenerowanie slownika spawn
         b2. otwarcie strony index.html:
-        b2.1. uzupelnienie pol w ekranie Character
-        b2.2. wyswietlenie walki (spawn lub podroz lub cooldown itd)
+        b2.1. uzupelnienie pol w sekcji Status
+        b2.2. otwarcie ekranu CharacterInfo i uzupelnienie pol w sekcjach
+        b2.3. uzupwlnienie pol w sekcji Battle dotyczacych: mobTypes, spawnLvls, characterSkillHitpointsBar
         
 
 slownik character:
