@@ -1,6 +1,9 @@
 kolejnosc prc:
+
+Etap I: (bez zapisywania danych w bazie SQL; po restarcie aplikacji dane są inicjowane na nowo - tworzona jest postac z Id 1 co powoduje nadpisanie slownika)
 1. ekran Login:
-    a. pole z haslem i loginem i przyciskiwm Login
+    a. pole z haslem i loginem i przyciskiwm Login:
+        a1. zablokowanie dostepu do strony index z innego poziomu niz przez Login
     b. przy pustych polach wybranie przycisku Login wykonuje:
         b1. inicjalizacja zgodnie z:
             b1.1. wygenerowanie slownika postaci
@@ -9,11 +12,25 @@ kolejnosc prc:
         b2.1. uzupelnienie pol w sekcji Status
         b2.2. otwarcie ekranu CharacterInfo i uzupelnienie pol w sekcjach
         b2.3. uzupwlnienie pol w sekcji Battle dotyczacych: mobTypes, spawnLvls, characterSkillHitpointsBar
+
+        
+Etap II:
+1. system cyklicznie zaposuje dane ze slownikow w tabelqch SQL
+2. tabela przechowujaca utworzone postacie
+3. funkcja inicjujaca aplikacje na podstawie danych z tabli SQL
+4. przekazywanie Id postaci za pomoca pola Login
+
+Etap III:
+1. 
+
+
+    a. 
         
 
 slownik character:
 character = {
     "id": int,
+    "isActive": int,
     "name": string,
     "race": int,
     "class": int,
