@@ -9,9 +9,26 @@ Etap I: (bez zapisywania danych w bazie SQL; po restarcie aplikacji dane są ini
             b1.1. wygenerowanie slownika postaci
             b1.2. wygenerowanie slownika spawn
         b2. otwarcie strony index.html:
-        b2.1. uzupelnienie pol w sekcji Status
-        b2.2. otwarcie ekranu CharacterInfo i uzupelnienie pol w sekcjach
-        b2.3. uzupwlnienie pol w sekcji Battle dotyczacych: mobTypes, spawnLvls, characterSkillHitpointsBar
+        b2.1. uzupelnienie pol w sekcji Status i uzupelnie ie:
+            b2.1.1 
+        b2.2. otwarcie ekranu CharacterInfo i uzupelnienie pol w sekcjach:
+            b2.2.1 pobranie wartosci ze slownika z danymi postaci
+        b2.3. uzupełnienie pol w sekcji Battle dotyczacych: mobTypes, spawnLvls, characterSkillHitpointsBar:
+            b2.3.1 pobranie wartosci ze slownika spawn dla mobType "normal" 
+            b2.3.2 wyswietlenie srodkowej wartosci spawnLvl rownej lvl postaci
+        b2.4 w sytuacji braku wybranego spawn zamiast ekranu z mobem wyswietlana jest animacja z informacja o statusie (in town)
+        b2.5 wybranie spawnLvl powoduje zaladowanie ekranu z mobem:
+            b2.5.1 wylosowanie odpowiedniego spawn: 
+            b2.5.2 wyswietlenie ekranu z mobem i zaladowanie danych
+            b2.5.3 na obrazku moba wyswietlany jest status wraz z timerem: traveling/cooldown
+        b2.6 nastepuje rozpoczecie walki
+        b2.7 walka trwa do czasu:
+            b2.7.1 smierci bohatera
+            b2.7.2 wykonczenia spawn
+            b2.7.3 przerwania walki poprzez:
+                - zmiane spawnu
+                - transportowanie sie do miasta
+            
 
         
 Etap II:
