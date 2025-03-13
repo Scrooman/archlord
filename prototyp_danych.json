@@ -46,11 +46,12 @@ Etap III:
 
 slownik character:
 character = {
-    "id": int,
+    "id": int, (base64)
     "isActive": int,
     "name": string,
     "race": int,
     "class": int,
+    "lvl": int,
     "characteristics": {},
     "atributes": {},
     "inventory": {
@@ -79,7 +80,7 @@ StanPostaci = {
     
  
 Dane Właściwości Postaci:
-WlasciwosciPostaci = {
+ characteristics = {
     "hp”: int,
     „Mana”: int,
     „Exp”: int,
@@ -89,7 +90,7 @@ WlasciwosciPostaci = {
 
 Dane Atrybutow postaci:
 atrybutyPostaci = { 
-    „1”: {
+     {
         “Strength”: 1,
         “Agility”: 10,
         .........
