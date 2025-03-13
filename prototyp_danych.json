@@ -70,8 +70,8 @@ StatusWalkiPostaci = false, True
 
 Dane Stanu Postaci:
 StanPostaci = {
-    "Status”: idle, dead, alive, travel,
-    „StatusAkcji”: battle, rest, respawn…
+    "Status”: dead, alive
+    „StatusAkcji”: battle, idle, traveling, mobRespawn, characterRespawn…
     „CzasRozpoczecia”: date,
     „CzasZakonczenia”: date
     „LokalizacjaSpawn”: int,
