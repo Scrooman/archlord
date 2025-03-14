@@ -118,7 +118,7 @@ Dane Lokalizacji:
 Lokalizacja = {
     "spawn": {
         „lokalizacja": int,
-        "lvlRange": string,
+        "lvl": int,
         "mobType": int,
         "mobPopulation": int,
         "mobId": int
