@@ -90,10 +90,15 @@ Dane Właściwości Postaci:
 
 Dane Atrybutow postaci:
 atrybutyPostaci = { 
-     {
+     "characterBasedAtributes": {
         “Strength”: 1,
         “Agility”: 10,
         .........
+        "equipmentBasedAtributes": {
+            Strength”: 1,
+            “Agility”: 10,
+            .........
+            },
         “ZalozonyPancerz”: {
             “Head”: Id,
             “Chest”: Id,
@@ -110,7 +115,8 @@ atrybutyPostaci = {
             "chantraBag": [],
             ...pozostale itemType...
             }
-        }
+        },
+    "
     }
 
 
